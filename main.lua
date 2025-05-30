@@ -21,7 +21,7 @@ local InterfaceManager = {} do
 		InterfaceManager.Settings = {
 			Theme = self.Library.Theme or "Dark",
 			Acrylic = self.Library.UseAcrylic or true,
-			Transparency = self.Library.Transparency or true,
+			Transparency = self.Library.Transparency or false,
 			MenuKeybind = self.Library.MinimizeKey or Enum.KeyCode.RightControl
 		}
 	end
