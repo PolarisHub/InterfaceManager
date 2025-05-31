@@ -19,7 +19,7 @@ local InterfaceManager = {} do
 		self.Library = library
 
 		InterfaceManager.Settings = {
-			Theme = self.Library.Theme or "Dark",
+			Theme = self.Library.Theme or "Monokai Vibrant",
 			Acrylic = self.Library.UseAcrylic or true,
 			Transparency = self.Library.Transparency or false,
 			MenuKeybind = self.Library.MinimizeKey or Enum.KeyCode.RightControl
