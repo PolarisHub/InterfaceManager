@@ -105,7 +105,7 @@ local InterfaceManager = {} do
 		section:AddToggle("InterfaceManager_TransparentToggle", {
 			Title = "Transparency",
 			Description = "Makes the interface transparent.",
-			Default = Settings.Transparency,
+			Default = False,
 			Callback = function(Value)
 				Library:ToggleTransparency(Value)
 				Settings.Transparency = Value
