@@ -4,8 +4,8 @@ local InterfaceManager = {} do
 	InterfaceManager.Folder = "FluentRenewedSettings"
 
     InterfaceManager.Settings = {
-        Theme = "Dark",
-        Acrylic = true,
+        Theme = "Monokai Vibrant",
+        Acrylic = false,
         Transparency = false,
         MenuKeybind = Enum.KeyCode.RightControl
     }
@@ -20,7 +20,7 @@ local InterfaceManager = {} do
 
 		InterfaceManager.Settings = {
 			Theme = self.Library.Theme or "Monokai Vibrant",
-			Acrylic = self.Library.UseAcrylic or true,
+			Acrylic = self.Library.UseAcrylic or false,
 			Transparency = self.Library.Transparency or false,
 			MenuKeybind = self.Library.MinimizeKey or Enum.KeyCode.RightControl
 		}
